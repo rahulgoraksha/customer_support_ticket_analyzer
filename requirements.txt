@@ -1,0 +1,15 @@
+# -- requirements.txt --
+# -- Final, stable, and verified versions for Python 3.12 on Windows (GPU) --
+
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+textblob==0.18.0.post0
+nltk==3.8.1
+transformers==4.41.2
+
+# PyTorch (GPU version)
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==2.3.1
